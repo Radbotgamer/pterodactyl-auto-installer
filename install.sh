@@ -135,6 +135,7 @@ if [ "$SELECT_THEME" -eq 1 ]; then
   php artisan view:clear
   sudo rm /root/C2.zip
   sudo rm -rf /root/pterodactyl
+  npx update-browserslist-db@latest
 
   echo -e "                                                       "
   echo -e "${GREEN}[+] =============================================== [+]${NC}"
